@@ -11,11 +11,6 @@
 
 // 应用入口文件
 
-// 安装完成后请删除此代码
-if(!is_file('./Application/Install/Data/install.lock')){
-    header('Location: ./install.php');
-    exit;
-}
 
 // 检测PHP环境
 if(version_compare(PHP_VERSION,'5.3.0','<'))  die('require PHP > 5.3.0 !');
