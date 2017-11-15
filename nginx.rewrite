@@ -1,0 +1,18 @@
+#禁止访问敏感目录
+if ($uri ~ ^/(Application|Runtime|ThinkPHP)/){
+	return 404;
+}
+#禁止在静态文件目录访问php文件
+if ($uri ~ ^/(Public|Uploads|Templet)/.*\.php){
+	return 404;
+}
+#禁止访问敏感文件
+if ($uri ~ ^/(\.htaccess|.user.ini|LICENSE)){
+	return 404;
+}
+#去除index.php
+location / {
+	if (!-e $request_filename){
+		rewrite  ^(.*)$  /index.php?s=$1  last;   break;
+	}
+}
