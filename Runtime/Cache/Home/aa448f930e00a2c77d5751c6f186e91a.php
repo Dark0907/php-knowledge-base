@@ -152,11 +152,10 @@
 	</ul>
 </div>
 <div class="tpt-sidebar cl">
-	<h3>友情连接</h3>
+	<h3>友情链接</h3>
 	<ul class="tpt-e cl">
 		<?php if(is_array($tptd)): $i = 0; $__LIST__ = $tptd;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li><a target="_blank" href="<?php echo ($vo["link"]); ?>"><?php echo ($vo["name"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
-	</ul>
-</div>
+	</ul></div>
 
 	</div>
 </div>
