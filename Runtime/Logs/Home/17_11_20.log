@@ -1,0 +1,1251 @@
+[ 2017-11-20T01:20:53+08:00 ] 203.208.60.239 /index.php/tags.html?ks=%E8%87%AA%E5%AE%9A%E4%B9%89
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+SQL: SHOW COLUMNS FROM `tpt_navtop` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid = 0 ) ORDER BY sort ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid != 0 ) ORDER BY sort ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_article` WHERE `commend` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_article` WHERE `choice` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_links` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_links`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_conf` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT article.id AS id,article.title AS title,article.author AS author,article.view AS view,article.description AS description,article.keywords AS keywords,article.pic AS pic,article.commend AS commend,article.choice AS choice,article.time AS time,article.open AS open,category.name AS name,category.type AS type FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id WHERE ( 1 AND article.keywords LIKE "%自定义%" ) ORDER BY article.id DESC LIMIT 0,15   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined index: title /www/wwwroot/tb/Runtime/Cache/Home/d4879ffe07a4be12f3ff6402ebdb4cbf.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000043s ]
+
+[ 2017-11-20T01:49:51+08:00 ] 203.208.60.220 /index.php/tags.html?ks=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `tpt_navtop` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid = 0 ) ORDER BY sort ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid != 0 ) ORDER BY sort ASC  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_article` WHERE `commend` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_article` WHERE `choice` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_links` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_links`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_conf` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT article.id AS id,article.title AS title,article.author AS author,article.view AS view,article.description AS description,article.keywords AS keywords,article.pic AS pic,article.commend AS commend,article.choice AS choice,article.time AS time,article.open AS open,category.name AS name,category.type AS type FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id WHERE ( 1 AND article.keywords LIKE "%人工智能%" ) ORDER BY article.id DESC LIMIT 0,15   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Undefined index: title /www/wwwroot/tb/Runtime/Cache/Home/d4879ffe07a4be12f3ff6402ebdb4cbf.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003905s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000041s ]
+
+[ 2017-11-20T02:50:19+08:00 ] 140.205.225.204 /index.php?m=member&c=index&a=register&siteid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `tpt_navtop` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid = 0 ) ORDER BY sort ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid != 0 ) ORDER BY sort ASC  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_article` WHERE `commend` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_article` WHERE `choice` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_links` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_links`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_conf` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+ERR: 非法操作:register
+
+[ 2017-11-20T02:50:20+08:00 ] 140.205.225.204 /index.php?m=wap&a=index&siteid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `tpt_navtop` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid = 0 ) ORDER BY sort ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid != 0 ) ORDER BY sort ASC  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpt_article` WHERE `commend` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_article` WHERE `choice` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_links` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_links`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_conf` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_banner` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_banner` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT article.id AS id,article.title AS title,article.author AS author,article.view AS view,article.description AS description,article.keywords AS keywords,article.pic AS pic,article.commend AS commend,article.choice AS choice,article.time AS time,article.open AS open,category.name AS name,category.type AS type FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id WHERE article.open = 1 ORDER BY article.id DESC LIMIT 0,15   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined index: title /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 23 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 90 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 95 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 90 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 95 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 90 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 95 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 90 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004274s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000044s ]
+
+[ 2017-11-20T02:50:20+08:00 ] 140.205.225.204 /index.php?m=attachment&c=attachments&a=swfupload_json&aid=1&src=%26id=%*27a*nd%20ex*p(~(sele*ct%25*2afro*m(sele*ct+co*nc*at(0x7e,md5(233333),0x7e))x))%23%26m%3D1%26f%3Dtest%26modelid%3D2%26catid%3D6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000042s ]
+ERR: 无法加载控制器:Attachments
+
+[ 2017-11-20T03:23:18+08:00 ] 203.208.60.238 /index/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `tpt_navtop` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid = 0 ) ORDER BY sort ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid != 0 ) ORDER BY sort ASC  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_article` WHERE `commend` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_article` WHERE `choice` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 5   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_links` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_links`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_conf` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_category` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002547s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002562s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000047s ]
+
+[ 2017-11-20T03:58:34+08:00 ] 203.208.60.238 /index.php/tags.html?ks=%E8%87%AA%E5%AE%9A%E4%B9%89
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `tpt_navtop` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid = 0 ) ORDER BY sort ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid != 0 ) ORDER BY sort ASC  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpt_article` WHERE `commend` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_article` WHERE `choice` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_links` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_links`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_conf` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT article.id AS id,article.title AS title,article.author AS author,article.view AS view,article.description AS description,article.keywords AS keywords,article.pic AS pic,article.commend AS commend,article.choice AS choice,article.time AS time,article.open AS open,category.name AS name,category.type AS type FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id WHERE ( 1 AND article.keywords LIKE "%自定义%" ) ORDER BY article.id DESC LIMIT 0,15   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined index: title /www/wwwroot/tb/Runtime/Cache/Home/d4879ffe07a4be12f3ff6402ebdb4cbf.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004137s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000042s ]
+
+[ 2017-11-20T04:01:33+08:00 ] 157.55.39.32 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+ERR: 无法加载控制器:Robots.txt
+
+[ 2017-11-20T04:01:37+08:00 ] 207.46.13.177 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000041s ]
+SQL: SHOW COLUMNS FROM `tpt_navtop` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid = 0 ) ORDER BY sort ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid != 0 ) ORDER BY sort ASC  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_article` WHERE `commend` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_article` WHERE `choice` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_links` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_links`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_conf` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_banner` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_banner` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT article.id AS id,article.title AS title,article.author AS author,article.view AS view,article.description AS description,article.keywords AS keywords,article.pic AS pic,article.commend AS commend,article.choice AS choice,article.time AS time,article.open AS open,category.name AS name,category.type AS type FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id WHERE article.open = 1 ORDER BY article.id DESC LIMIT 0,15   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined index: title /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 23 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 90 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 95 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 90 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 95 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 90 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 95 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 90 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004223s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000041s ]
+
+[ 2017-11-20T04:01:42+08:00 ] 207.46.13.10 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+ERR: 无法加载控制器:Robots.txt
+
+[ 2017-11-20T04:52:27+08:00 ] 203.208.60.251 /index.php/tags.html?ks=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `tpt_navtop` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid = 0 ) ORDER BY sort ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid != 0 ) ORDER BY sort ASC  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_article` WHERE `commend` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_article` WHERE `choice` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_links` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_links`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_conf` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT article.id AS id,article.title AS title,article.author AS author,article.view AS view,article.description AS description,article.keywords AS keywords,article.pic AS pic,article.commend AS commend,article.choice AS choice,article.time AS time,article.open AS open,category.name AS name,category.type AS type FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id WHERE ( 1 AND article.keywords LIKE "%人工智能%" ) ORDER BY article.id DESC LIMIT 0,15   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Undefined index: title /www/wwwroot/tb/Runtime/Cache/Home/d4879ffe07a4be12f3ff6402ebdb4cbf.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003931s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000053s ]
+
+[ 2017-11-20T05:09:43+08:00 ] 203.208.60.212 /index.php/tags.html?ks=%E7%BB%BC%E8%89%BA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `tpt_navtop` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid = 0 ) ORDER BY sort ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid != 0 ) ORDER BY sort ASC  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_article` WHERE `commend` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_article` WHERE `choice` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_links` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_links`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_conf` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT article.id AS id,article.title AS title,article.author AS author,article.view AS view,article.description AS description,article.keywords AS keywords,article.pic AS pic,article.commend AS commend,article.choice AS choice,article.time AS time,article.open AS open,category.name AS name,category.type AS type FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id WHERE ( 1 AND article.keywords LIKE "%综艺%" ) ORDER BY article.id DESC LIMIT 0,15   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined index: title /www/wwwroot/tb/Runtime/Cache/Home/d4879ffe07a4be12f3ff6402ebdb4cbf.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003909s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003922s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000041s ]
+
+[ 2017-11-20T05:45:23+08:00 ] 203.208.60.240 /index.php/tags.html?ks=%E7%BD%91%E7%BA%A2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+SQL: SHOW COLUMNS FROM `tpt_navtop` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid = 0 ) ORDER BY sort ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid != 0 ) ORDER BY sort ASC  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpt_article` WHERE `commend` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_article` WHERE `choice` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_links` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_links`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_conf` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT article.id AS id,article.title AS title,article.author AS author,article.view AS view,article.description AS description,article.keywords AS keywords,article.pic AS pic,article.commend AS commend,article.choice AS choice,article.time AS time,article.open AS open,category.name AS name,category.type AS type FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id WHERE ( 1 AND article.keywords LIKE "%网红%" ) ORDER BY article.id DESC LIMIT 0,15   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Undefined index: title /www/wwwroot/tb/Runtime/Cache/Home/d4879ffe07a4be12f3ff6402ebdb4cbf.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004087s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000042s ]
+
+[ 2017-11-20T06:04:12+08:00 ] 106.11.225.241 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `tpt_navtop` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid = 0 ) ORDER BY sort ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid != 0 ) ORDER BY sort ASC  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_article` WHERE `commend` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_article` WHERE `choice` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_links` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_links`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_conf` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_banner` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_banner` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT article.id AS id,article.title AS title,article.author AS author,article.view AS view,article.description AS description,article.keywords AS keywords,article.pic AS pic,article.commend AS commend,article.choice AS choice,article.time AS time,article.open AS open,category.name AS name,category.type AS type FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id WHERE article.open = 1 ORDER BY article.id DESC LIMIT 0,15   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined index: title /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 23 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 90 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 95 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 90 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 95 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 90 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 95 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 90 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004349s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004361s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000051s ]
+
+[ 2017-11-20T06:12:43+08:00 ] 1.202.85.217 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `tpt_navtop` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid = 0 ) ORDER BY sort ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid != 0 ) ORDER BY sort ASC  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpt_article` WHERE `commend` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_article` WHERE `choice` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_links` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_links`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_conf` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_banner` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_banner` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT article.id AS id,article.title AS title,article.author AS author,article.view AS view,article.description AS description,article.keywords AS keywords,article.pic AS pic,article.commend AS commend,article.choice AS choice,article.time AS time,article.open AS open,category.name AS name,category.type AS type FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id WHERE article.open = 1 ORDER BY article.id DESC LIMIT 0,15   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined index: title /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 23 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 90 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 95 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 90 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 95 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 90 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 95 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 90 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004244s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000042s ]
+
+[ 2017-11-20T07:01:33+08:00 ] 203.208.60.216 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000060s ]
+ERR: 无法加载控制器:Robots.txt
+
+[ 2017-11-20T07:21:43+08:00 ] 203.208.60.201 /index.php/tags.html?ks=%E6%B8%B8%E6%88%8F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+SQL: SHOW COLUMNS FROM `tpt_navtop` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid = 0 ) ORDER BY sort ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid != 0 ) ORDER BY sort ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_article` WHERE `commend` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_article` WHERE `choice` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_links` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_links`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_conf` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT article.id AS id,article.title AS title,article.author AS author,article.view AS view,article.description AS description,article.keywords AS keywords,article.pic AS pic,article.commend AS commend,article.choice AS choice,article.time AS time,article.open AS open,category.name AS name,category.type AS type FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id WHERE ( 1 AND article.keywords LIKE "%游戏%" ) ORDER BY article.id DESC LIMIT 0,15   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+NOTIC: [8] Undefined index: title /www/wwwroot/tb/Runtime/Cache/Home/d4879ffe07a4be12f3ff6402ebdb4cbf.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000042s ]
+
+[ 2017-11-20T07:51:46+08:00 ] 54.219.178.100 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+SQL: SHOW COLUMNS FROM `tpt_navtop` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid = 0 ) ORDER BY sort ASC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid != 0 ) ORDER BY sort ASC  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpt_article` WHERE `commend` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 3   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tpt_article` WHERE `choice` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tpt_links` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_links`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_conf` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_banner` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_banner` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT article.id AS id,article.title AS title,article.author AS author,article.view AS view,article.description AS description,article.keywords AS keywords,article.pic AS pic,article.commend AS commend,article.choice AS choice,article.time AS time,article.open AS open,category.name AS name,category.type AS type FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id WHERE article.open = 1 ORDER BY article.id DESC LIMIT 0,15   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Undefined index: title /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 23 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 90 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 95 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 90 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 95 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 90 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 95 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 90 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004333s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004345s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000043s ]
+
+[ 2017-11-20T08:37:43+08:00 ] 203.208.60.239 /index.php/tags.html?ks=%E8%87%AA%E5%AE%9A%E4%B9%89
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000056s ]
+SQL: SHOW COLUMNS FROM `tpt_navtop` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid = 0 ) ORDER BY sort ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid != 0 ) ORDER BY sort ASC  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpt_article` WHERE `commend` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_article` WHERE `choice` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_links` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_links`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_conf` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT article.id AS id,article.title AS title,article.author AS author,article.view AS view,article.description AS description,article.keywords AS keywords,article.pic AS pic,article.commend AS commend,article.choice AS choice,article.time AS time,article.open AS open,category.name AS name,category.type AS type FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id WHERE ( 1 AND article.keywords LIKE "%自定义%" ) ORDER BY article.id DESC LIMIT 0,15   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined index: title /www/wwwroot/tb/Runtime/Cache/Home/d4879ffe07a4be12f3ff6402ebdb4cbf.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004162s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000049s ]
+
+[ 2017-11-20T09:06:42+08:00 ] 203.208.60.221 /index.php/tags.html?ks=%E6%B8%B8%E6%88%8F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+SQL: SHOW COLUMNS FROM `tpt_navtop` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid = 0 ) ORDER BY sort ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid != 0 ) ORDER BY sort ASC  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpt_article` WHERE `commend` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_article` WHERE `choice` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_links` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_links`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_conf` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT article.id AS id,article.title AS title,article.author AS author,article.view AS view,article.description AS description,article.keywords AS keywords,article.pic AS pic,article.commend AS commend,article.choice AS choice,article.time AS time,article.open AS open,category.name AS name,category.type AS type FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id WHERE ( 1 AND article.keywords LIKE "%游戏%" ) ORDER BY article.id DESC LIMIT 0,15   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined index: title /www/wwwroot/tb/Runtime/Cache/Home/d4879ffe07a4be12f3ff6402ebdb4cbf.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004152s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004167s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000051s ]
+
+[ 2017-11-20T09:43:54+08:00 ] 203.208.60.242 /index.php/tags.html?ks=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+SQL: SHOW COLUMNS FROM `tpt_navtop` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid = 0 ) ORDER BY sort ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid != 0 ) ORDER BY sort ASC  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpt_article` WHERE `commend` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_article` WHERE `choice` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_links` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_links`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_conf` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT article.id AS id,article.title AS title,article.author AS author,article.view AS view,article.description AS description,article.keywords AS keywords,article.pic AS pic,article.commend AS commend,article.choice AS choice,article.time AS time,article.open AS open,category.name AS name,category.type AS type FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id WHERE ( 1 AND article.keywords LIKE "%人工智能%" ) ORDER BY article.id DESC LIMIT 0,15   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+NOTIC: [8] Undefined index: title /www/wwwroot/tb/Runtime/Cache/Home/d4879ffe07a4be12f3ff6402ebdb4cbf.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004195s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004208s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000042s ]
+
+[ 2017-11-20T11:45:52+08:00 ] 203.208.60.242 /index.php/tags.html?ks=%E8%87%AA%E5%AE%9A%E4%B9%89
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+SQL: SHOW COLUMNS FROM `tpt_navtop` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid = 0 ) ORDER BY sort ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid != 0 ) ORDER BY sort ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpt_article` WHERE `commend` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_article` WHERE `choice` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_links` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_links`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_conf` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT article.id AS id,article.title AS title,article.author AS author,article.view AS view,article.description AS description,article.keywords AS keywords,article.pic AS pic,article.commend AS commend,article.choice AS choice,article.time AS time,article.open AS open,category.name AS name,category.type AS type FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id WHERE ( 1 AND article.keywords LIKE "%自定义%" ) ORDER BY article.id DESC LIMIT 0,15   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+NOTIC: [8] Undefined index: title /www/wwwroot/tb/Runtime/Cache/Home/d4879ffe07a4be12f3ff6402ebdb4cbf.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004151s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000042s ]
+
+[ 2017-11-20T11:52:24+08:00 ] 203.208.60.239 /index.php/tags.html?ks=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+SQL: SHOW COLUMNS FROM `tpt_navtop` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid = 0 ) ORDER BY sort ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid != 0 ) ORDER BY sort ASC  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_article` WHERE `commend` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_article` WHERE `choice` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_links` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_links`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_conf` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT article.id AS id,article.title AS title,article.author AS author,article.view AS view,article.description AS description,article.keywords AS keywords,article.pic AS pic,article.commend AS commend,article.choice AS choice,article.time AS time,article.open AS open,category.name AS name,category.type AS type FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id WHERE ( 1 AND article.keywords LIKE "%人工智能%" ) ORDER BY article.id DESC LIMIT 0,15   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined index: title /www/wwwroot/tb/Runtime/Cache/Home/d4879ffe07a4be12f3ff6402ebdb4cbf.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004198s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004212s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000042s ]
+
+[ 2017-11-20T12:11:38+08:00 ] 182.245.45.135 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `tpt_navtop` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid = 0 ) ORDER BY sort ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid != 0 ) ORDER BY sort ASC  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpt_article` WHERE `commend` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_article` WHERE `choice` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_links` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_links`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_conf` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_banner` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_banner` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT article.id AS id,article.title AS title,article.author AS author,article.view AS view,article.description AS description,article.keywords AS keywords,article.pic AS pic,article.commend AS commend,article.choice AS choice,article.time AS time,article.open AS open,category.name AS name,category.type AS type FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id WHERE article.open = 1 ORDER BY article.id DESC LIMIT 0,15   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined index: title /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 23 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 90 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 95 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 90 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 95 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 90 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 95 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 90 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004337s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000043s ]
+
+[ 2017-11-20T12:12:46+08:00 ] 203.208.60.242 /index.php/tags.html?ks=%E8%87%AA%E5%AE%9A%E4%B9%89
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+SQL: SHOW COLUMNS FROM `tpt_navtop` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid = 0 ) ORDER BY sort ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid != 0 ) ORDER BY sort ASC  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpt_article` WHERE `commend` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_article` WHERE `choice` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_links` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_links`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_conf` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT article.id AS id,article.title AS title,article.author AS author,article.view AS view,article.description AS description,article.keywords AS keywords,article.pic AS pic,article.commend AS commend,article.choice AS choice,article.time AS time,article.open AS open,category.name AS name,category.type AS type FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id WHERE ( 1 AND article.keywords LIKE "%自定义%" ) ORDER BY article.id DESC LIMIT 0,15   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Undefined index: title /www/wwwroot/tb/Runtime/Cache/Home/d4879ffe07a4be12f3ff6402ebdb4cbf.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004136s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004150s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000043s ]
+
+[ 2017-11-20T12:15:10+08:00 ] 140.205.225.188 /index.php?m=member&c=index&a=register&siteid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+SQL: SHOW COLUMNS FROM `tpt_navtop` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid = 0 ) ORDER BY sort ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid != 0 ) ORDER BY sort ASC  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpt_article` WHERE `commend` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_article` WHERE `choice` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_links` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_links`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_conf` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+ERR: 非法操作:register
+
+[ 2017-11-20T12:15:10+08:00 ] 140.205.225.188 /index.php?m=wap&a=index&siteid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000043s ]
+SQL: SHOW COLUMNS FROM `tpt_navtop` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid = 0 ) ORDER BY sort ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid != 0 ) ORDER BY sort ASC  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_article` WHERE `commend` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_article` WHERE `choice` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_links` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_links`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_conf` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_banner` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_banner` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT article.id AS id,article.title AS title,article.author AS author,article.view AS view,article.description AS description,article.keywords AS keywords,article.pic AS pic,article.commend AS commend,article.choice AS choice,article.time AS time,article.open AS open,category.name AS name,category.type AS type FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id WHERE article.open = 1 ORDER BY article.id DESC LIMIT 0,15   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined index: title /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 23 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 90 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 95 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 90 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 95 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 90 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 95 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 90 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004340s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000043s ]
+
+[ 2017-11-20T12:15:10+08:00 ] 140.205.225.188 /index.php?m=attachment&c=attachments&a=swfupload_json&aid=1&src=%26id=%*27a*nd%20ex*p(~(sele*ct%25*2afro*m(sele*ct+co*nc*at(0x7e,md5(233333),0x7e))x))%23%26m%3D1%26f%3Dtest%26modelid%3D2%26catid%3D6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000040s ]
+ERR: 无法加载控制器:Attachments
+
+[ 2017-11-20T15:54:42+08:00 ] 203.208.60.234 /index.php/tags.html?ks=%E8%87%AA%E5%AE%9A%E4%B9%89
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+SQL: SHOW COLUMNS FROM `tpt_navtop` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid = 0 ) ORDER BY sort ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid != 0 ) ORDER BY sort ASC  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_article` WHERE `commend` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpt_article` WHERE `choice` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_links` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_links`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_conf` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT article.id AS id,article.title AS title,article.author AS author,article.view AS view,article.description AS description,article.keywords AS keywords,article.pic AS pic,article.commend AS commend,article.choice AS choice,article.time AS time,article.open AS open,category.name AS name,category.type AS type FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id WHERE ( 1 AND article.keywords LIKE "%自定义%" ) ORDER BY article.id DESC LIMIT 0,15   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined index: title /www/wwwroot/tb/Runtime/Cache/Home/d4879ffe07a4be12f3ff6402ebdb4cbf.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004162s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000042s ]
+
+[ 2017-11-20T16:36:16+08:00 ] 203.208.60.242 /index.php/tags.html?ks=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `tpt_navtop` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid = 0 ) ORDER BY sort ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid != 0 ) ORDER BY sort ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpt_article` WHERE `commend` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_article` WHERE `choice` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_links` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_links`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_conf` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT article.id AS id,article.title AS title,article.author AS author,article.view AS view,article.description AS description,article.keywords AS keywords,article.pic AS pic,article.commend AS commend,article.choice AS choice,article.time AS time,article.open AS open,category.name AS name,category.type AS type FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id WHERE ( 1 AND article.keywords LIKE "%人工智能%" ) ORDER BY article.id DESC LIMIT 0,15   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+NOTIC: [8] Undefined index: title /www/wwwroot/tb/Runtime/Cache/Home/d4879ffe07a4be12f3ff6402ebdb4cbf.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004168s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000043s ]
+
+[ 2017-11-20T16:59:41+08:00 ] 203.208.60.243 /index.php/tags.html?ks=%E6%B8%B8%E6%88%8F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `tpt_navtop` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid = 0 ) ORDER BY sort ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid != 0 ) ORDER BY sort ASC  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpt_article` WHERE `commend` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_article` WHERE `choice` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_links` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_links`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_conf` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT article.id AS id,article.title AS title,article.author AS author,article.view AS view,article.description AS description,article.keywords AS keywords,article.pic AS pic,article.commend AS commend,article.choice AS choice,article.time AS time,article.open AS open,category.name AS name,category.type AS type FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id WHERE ( 1 AND article.keywords LIKE "%游戏%" ) ORDER BY article.id DESC LIMIT 0,15   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined index: title /www/wwwroot/tb/Runtime/Cache/Home/d4879ffe07a4be12f3ff6402ebdb4cbf.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004182s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004196s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000043s ]
+
+[ 2017-11-20T17:56:01+08:00 ] 203.208.60.198 /index.php/tags.html?ks=%E8%87%AA%E5%AE%9A%E4%B9%89
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+SQL: SHOW COLUMNS FROM `tpt_navtop` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid = 0 ) ORDER BY sort ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid != 0 ) ORDER BY sort ASC  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_article` WHERE `commend` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_article` WHERE `choice` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_links` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_links`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_conf` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT article.id AS id,article.title AS title,article.author AS author,article.view AS view,article.description AS description,article.keywords AS keywords,article.pic AS pic,article.commend AS commend,article.choice AS choice,article.time AS time,article.open AS open,category.name AS name,category.type AS type FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id WHERE ( 1 AND article.keywords LIKE "%自定义%" ) ORDER BY article.id DESC LIMIT 0,15   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined index: title /www/wwwroot/tb/Runtime/Cache/Home/d4879ffe07a4be12f3ff6402ebdb4cbf.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000042s ]
+
+[ 2017-11-20T18:58:23+08:00 ] 203.208.60.238 /index.php/tags.html?ks=%E8%87%AA%E5%AE%9A%E4%B9%89
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+SQL: SHOW COLUMNS FROM `tpt_navtop` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid = 0 ) ORDER BY sort ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid != 0 ) ORDER BY sort ASC  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_article` WHERE `commend` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_article` WHERE `choice` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_links` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_links`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_conf` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT article.id AS id,article.title AS title,article.author AS author,article.view AS view,article.description AS description,article.keywords AS keywords,article.pic AS pic,article.commend AS commend,article.choice AS choice,article.time AS time,article.open AS open,category.name AS name,category.type AS type FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id WHERE ( 1 AND article.keywords LIKE "%自定义%" ) ORDER BY article.id DESC LIMIT 0,15   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Undefined index: title /www/wwwroot/tb/Runtime/Cache/Home/d4879ffe07a4be12f3ff6402ebdb4cbf.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004033s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000041s ]
+
+[ 2017-11-20T19:03:34+08:00 ] 203.208.60.239 /index.php/tags.html?ks=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `tpt_navtop` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid = 0 ) ORDER BY sort ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid != 0 ) ORDER BY sort ASC  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpt_article` WHERE `commend` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_article` WHERE `choice` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_links` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_links`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_conf` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT article.id AS id,article.title AS title,article.author AS author,article.view AS view,article.description AS description,article.keywords AS keywords,article.pic AS pic,article.commend AS commend,article.choice AS choice,article.time AS time,article.open AS open,category.name AS name,category.type AS type FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id WHERE ( 1 AND article.keywords LIKE "%人工智能%" ) ORDER BY article.id DESC LIMIT 0,15   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined index: title /www/wwwroot/tb/Runtime/Cache/Home/d4879ffe07a4be12f3ff6402ebdb4cbf.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003956s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003969s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000041s ]
+
+[ 2017-11-20T19:03:34+08:00 ] 203.208.60.238 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000039s ]
+ERR: 无法加载控制器:Robots.txt
+
+[ 2017-11-20T19:28:54+08:00 ] 203.208.60.239 /index.php/tags.html?ks=%E6%B8%B8%E6%88%8F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000056s ]
+SQL: SHOW COLUMNS FROM `tpt_navtop` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid = 0 ) ORDER BY sort ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid != 0 ) ORDER BY sort ASC  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_article` WHERE `commend` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_article` WHERE `choice` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_links` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_links`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_conf` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT article.id AS id,article.title AS title,article.author AS author,article.view AS view,article.description AS description,article.keywords AS keywords,article.pic AS pic,article.commend AS commend,article.choice AS choice,article.time AS time,article.open AS open,category.name AS name,category.type AS type FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id WHERE ( 1 AND article.keywords LIKE "%游戏%" ) ORDER BY article.id DESC LIMIT 0,15   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined index: title /www/wwwroot/tb/Runtime/Cache/Home/d4879ffe07a4be12f3ff6402ebdb4cbf.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004189s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000042s ]
+
+[ 2017-11-20T20:50:23+08:00 ] 203.208.60.238 /index.php/tags.html?ks=%E8%87%AA%E5%AE%9A%E4%B9%89
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `tpt_navtop` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid = 0 ) ORDER BY sort ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid != 0 ) ORDER BY sort ASC  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpt_article` WHERE `commend` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_article` WHERE `choice` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_links` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_links`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_conf` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT article.id AS id,article.title AS title,article.author AS author,article.view AS view,article.description AS description,article.keywords AS keywords,article.pic AS pic,article.commend AS commend,article.choice AS choice,article.time AS time,article.open AS open,category.name AS name,category.type AS type FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id WHERE ( 1 AND article.keywords LIKE "%自定义%" ) ORDER BY article.id DESC LIMIT 0,15   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+NOTIC: [8] Undefined index: title /www/wwwroot/tb/Runtime/Cache/Home/d4879ffe07a4be12f3ff6402ebdb4cbf.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004054s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004067s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000042s ]
+
+[ 2017-11-20T21:51:12+08:00 ] 202.108.211.56 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+SQL: SHOW COLUMNS FROM `tpt_navtop` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid = 0 ) ORDER BY sort ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid != 0 ) ORDER BY sort ASC  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpt_article` WHERE `commend` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_article` WHERE `choice` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_links` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_links`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_conf` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_banner` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tpt_banner` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT article.id AS id,article.title AS title,article.author AS author,article.view AS view,article.description AS description,article.keywords AS keywords,article.pic AS pic,article.commend AS commend,article.choice AS choice,article.time AS time,article.open AS open,category.name AS name,category.type AS type FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id WHERE article.open = 1 ORDER BY article.id DESC LIMIT 0,15   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+NOTIC: [8] Undefined index: title /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 23 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 90 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 95 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 90 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 95 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 90 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 95 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 90 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Home/aa448f930e00a2c77d5751c6f186e91a.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004343s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000043s ]
+
+[ 2017-11-20T22:31:32+08:00 ] 203.208.60.242 /index.php/tags.html?ks=%E8%87%AA%E5%AE%9A%E4%B9%89
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000053s ]
+SQL: SHOW COLUMNS FROM `tpt_navtop` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid = 0 ) ORDER BY sort ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid != 0 ) ORDER BY sort ASC  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpt_article` WHERE `commend` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_article` WHERE `choice` = 1 AND `open` = 1 ORDER BY id DESC LIMIT 5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_links` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_links`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_conf` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT article.id AS id,article.title AS title,article.author AS author,article.view AS view,article.description AS description,article.keywords AS keywords,article.pic AS pic,article.commend AS commend,article.choice AS choice,article.time AS time,article.open AS open,category.name AS name,category.type AS type FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id WHERE ( 1 AND article.keywords LIKE "%自定义%" ) ORDER BY article.id DESC LIMIT 0,15   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined index: title /www/wwwroot/tb/Runtime/Cache/Home/d4879ffe07a4be12f3ff6402ebdb4cbf.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004557s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004571s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000042s ]
+

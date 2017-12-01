@@ -1,0 +1,1211 @@
+[ 2017-11-29T09:25:22+08:00 ] 114.254.133.166 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000041s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0024s ]
+NOTIC: [8] Undefined index: username /www/wwwroot/tb/Application/Admin/Controller/CommonController.class.php 第 10 行.
+SQL: SELECT * FROM `tpt_member` WHERE ( username = '%s' ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: username /www/wwwroot/tb/Application/Admin/Controller/CommonController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002526s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002541s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000042s ]
+
+[ 2017-11-29T09:25:24+08:00 ] 114.254.133.166 /admin.php?m=Admin&c=Login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000042s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000035s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000039s ]
+
+[ 2017-11-29T09:25:37+08:00 ] 114.254.133.166 /admin.php?m=Admin&c=Login&a=checklogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username='admin' AND password='0ea9ac85d0c97324be4cc1cc5932dccd' AND kouling='2524747643' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002709s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002725s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000051s ]
+
+[ 2017-11-29T09:25:38+08:00 ] 114.254.133.166 /admin.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000042s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002053s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002070s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000046s ]
+
+[ 2017-11-29T09:25:41+08:00 ] 114.254.133.166 /admin.php?m=Admin&c=member&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000043s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+NOTIC: [8] Undefined variable: ddd /www/wwwroot/tb/Runtime/Cache/Admin/d3d30142e2629a056731401b55dee202.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001243s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000038s ]
+
+[ 2017-11-29T09:26:20+08:00 ] 114.254.133.166 /admin.php?m=Admin&c=Member&a=doUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0003s ]
+SQL: UPDATE `tpt_member` SET `kouling`='houqiang',`password`='21232f297a57a5a743894a0e4a801fc3' WHERE ( id = 1 ) [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002739s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002755s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000044s ]
+
+[ 2017-11-29T09:26:21+08:00 ] 114.254.133.166 /admin.php?m=Admin&c=member&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000040s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000042s ]
+
+[ 2017-11-29T09:26:24+08:00 ] 114.254.133.166 /admin.php?m=Admin&c=Login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000811s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000037s ]
+
+[ 2017-11-29T09:26:38+08:00 ] 114.254.133.166 /admin.php?m=Admin&c=Login&a=checklogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000043s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username='admin' AND password='21232f297a57a5a743894a0e4a801fc3' AND kouling='houqiang' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002710s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002727s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000039s ]
+
+[ 2017-11-29T09:26:41+08:00 ] 114.254.133.166 /admin.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000043s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000038s ]
+
+[ 2017-11-29T09:26:47+08:00 ] 114.254.133.166 /admin.php?m=Admin&c=navtop&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000041s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_navtop` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid = 0 ) ORDER BY sort ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid != 0 ) ORDER BY sort ASC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002238s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000038s ]
+
+[ 2017-11-29T09:26:48+08:00 ] 114.254.133.166 /admin.php?m=Admin&c=category&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_category` WHERE ( tid = 0 ) ORDER BY id ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tpt_category` WHERE ( tid != 0 ) ORDER BY id ASC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002346s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002361s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000039s ]
+
+[ 2017-11-29T09:26:50+08:00 ] 114.254.133.166 /admin.php?m=Admin&c=article&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /www/wwwroot/tb/ThinkPHP/Library/Think/Db/Driver.class.php 第 504 行.
+SQL: SELECT article.id AS id,article.title AS title,article.pic AS pic,article.commend AS commend,article.choice AS choice,article.time AS time,article.open AS open,article.tid AS tid,category.name AS name,category.type AS type FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id ORDER BY article.id DESC LIMIT 0,15   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000053s ]
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 71 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 78 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 71 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 78 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 71 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 78 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 71 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 78 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 71 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002259s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000038s ]
+
+[ 2017-11-29T09:26:58+08:00 ] 114.254.133.166 /admin.php?m=Admin&c=article&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000043s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_category` WHERE ( type = 1 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Use of undefined constant keywords - assumed 'keywords' /www/wwwroot/tb/Runtime/Cache/Admin/9759d94993c289ada096e85747e90043.php 第 141 行.
+NOTIC: [8] Undefined variable: a /www/wwwroot/tb/Runtime/Cache/Admin/9759d94993c289ada096e85747e90043.php 第 141 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002480s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000039s ]
+
+[ 2017-11-29T09:43:08+08:00 ] 114.254.133.166 /admin.php?m=Admin&c=article&a=doadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate /www/wwwroot/tb/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /www/wwwroot/tb/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `tpt_article` (`title`,`tid`,`author`,`source`,`open`,`commend`,`description`,`content`,`keywords`,`time`) VALUES (' linux下实现mysql数据库定时自动备份','7','杼惘的春天','','1','1','在Linux下备份数据库，并设置定时任务，进行定时备份。','      &lt;h1&gt;概述&lt;/h1&gt;&lt;p&gt;  备份是容灾的基础，是指为防止系统出现操作失误或系统故障导致数据丢失，而将全部或部分数据集合从应用主机的硬盘或阵列复制到其它的存储介质的过程。而对于一些网站、系统来说，数据库就是一切，所以做好数据库的备份是至关重要的！&lt;/p&gt;&lt;h2&gt;&lt;a target=&quot;_blank&quot;&gt;&lt;/a&gt;备份是什么？&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20150930153104216&quot; alt=&quot;这里写图片描述&quot;&gt;&lt;/p&gt;&lt;h2&gt;&lt;a target=&quot;_blank&quot;&gt;&lt;/a&gt;为什么要备份&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20150930153226713&quot; alt=&quot;这里写图片描述&quot;&gt;&lt;/p&gt;&lt;h2&gt;&lt;a target=&quot;_blank&quot;&gt;&lt;/a&gt;容灾方案建设&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20150930153209031&quot; alt=&quot;这里写图片描述&quot;&gt;&lt;/p&gt;&lt;h2&gt;&lt;a target=&quot;_blank&quot;&gt;&lt;/a&gt;存储介质&lt;/h2&gt;&lt;p&gt;光盘&amp;nbsp;磁带&amp;nbsp;硬盘&amp;nbsp;磁盘阵列&amp;nbsp;DAS：直接附加存储&amp;nbsp;NAS：网络附加存储&amp;nbsp;SAN：存储区域网络&amp;nbsp;云存储&lt;/p&gt;&lt;p&gt;这里主要以本地磁盘为存储介质讲一下计划任务的添加使用，基本的备份脚本，其它存储介质只是介质的访问方式可能不大一样。&lt;/p&gt;&lt;h1&gt;&lt;a target=&quot;_blank&quot;&gt;&lt;/a&gt;1、查看磁盘空间情况：&lt;/h1&gt;&lt;p&gt;既然是定时备份，就要选择一个空间充足的磁盘空间，避免出现因空间不足导致备份失败，数据丢失的恶果！&amp;nbsp;存储到当前磁盘这是最简单，却是最不推荐的；服务器有多块硬盘，最好是把备份存放到另一块硬盘上；有条件就选择更好更安全的存储介质；&lt;/p&gt;&lt;pre&gt;&lt;code&gt;# df -h
+Filesystem                    Size  Used Avail Use% Mounted on
+/dev/mapper/VolGroup-lv_root   50G   46G  1.6G  97% /
+tmpfs                         1.9G   92K  1.9G   1% /dev/shm
+/dev/sda1                     485M   39M  421M   9% /boot
+/dev/mapper/VolGroup-lv_home  534G  3.6G  503G   1% /home&lt;/code&gt;&lt;/pre&gt;&lt;h1&gt;&lt;a target=&quot;_blank&quot;&gt;&lt;/a&gt;2、创建备份目录：&lt;/h1&gt;&lt;p&gt;上面我们使用命令看出/home下空间比较充足，所以可以考虑在/home保存备份文件；&lt;/p&gt;&lt;pre&gt;&lt;code&gt;cd /home
+mkdir backup
+cd backup&lt;/code&gt;&lt;/pre&gt;&lt;h1&gt;&lt;a target=&quot;_blank&quot;&gt;&lt;/a&gt;3、创建备份Shell脚本:&lt;/h1&gt;&lt;p&gt;注意把以下命令中的DatabaseName换为实际的数据库名称；&amp;nbsp;当然，你也可以使用其实的命名规则！&lt;/p&gt;&lt;pre&gt;&lt;code&gt;vi bkDatabaseName.sh&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;输入/粘贴以下内容：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;#!/bin/bash
+mysqldump -uusername -ppassword DatabaseName &amp;gt; /home/backup/DatabaseName_$(date +%Y%m%d_%H%M%S).sql&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;对备份进行压缩：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;#!/bin/bash
+mysqldump -uusername -ppassword DatabaseName | gzip &amp;gt; /home/backup/DatabaseName_$(date +%Y%m%d_%H%M%S).sql.gz&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;注意：&amp;nbsp;把 username 替换为实际的用户名；&amp;nbsp;把 password 替换为实际的密码；&amp;nbsp;把 DatabaseName 替换为实际的数据库名；&lt;/p&gt;&lt;h1&gt;&lt;a target=&quot;_blank&quot;&gt;&lt;/a&gt;4、添加可执行权限：&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;chmod u+x bkDatabaseName.sh&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;添加可执行权限之后先执行一下，看看脚本有没有错误，能不能正常使用；&lt;/p&gt;&lt;pre&gt;&lt;code&gt;./bkDatabaseName.sh&lt;/code&gt;&lt;/pre&gt;&lt;h1&gt;&lt;a target=&quot;_blank&quot;&gt;&lt;/a&gt;5、添加计划任务&lt;/h1&gt;&lt;h2&gt;&lt;a target=&quot;_blank&quot;&gt;&lt;/a&gt;检测或安装 crontab&lt;/h2&gt;&lt;p&gt;确认crontab是否安装：&amp;nbsp;执行 crontab 命令如果报 command not found，就表明没有安装&lt;/p&gt;&lt;pre&gt;&lt;code&gt;# crontab
+-bash: crontab: command not found&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;如时没有安装 crontab，需要先安装它，具体步骤请参考：&amp;nbsp;&lt;a href=&quot;http://blog.csdn.net/testcs_dn/article/details/48780971&quot; target=&quot;_blank&quot;&gt;CentOS下使用yum命令安装计划任务程序crontab&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;http://blog.csdn.net/testcs_dn/article/details/48781553&quot; target=&quot;_blank&quot;&gt;使用rpm命令从CentOS系统盘安装计划任务程序crontab&lt;/a&gt;&lt;/p&gt;&lt;h2&gt;&lt;a target=&quot;_blank&quot;&gt;&lt;/a&gt;添加计划任务&lt;/h2&gt;&lt;p&gt;执行命令：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;crontab -e&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;这时就像使用vi编辑器一样，可以对计划任务进行编辑。&amp;nbsp;输入以下内容并保存：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;*/1 * * * * /home/backup/bkDatabaseName.sh&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;具体是什么意思呢？&amp;nbsp;意思是每一分钟执行一次shell脚本“/home/backup/bkDatabaseName.sh”。&lt;/p&gt;&lt;h1&gt;&lt;a target=&quot;_blank&quot;&gt;&lt;/a&gt;6、测试任务是否执行&lt;/h1&gt;&lt;p&gt;很简单，我们就执行几次“ls”命令，看看一分钟过后文件有没有被创建就可以了！&lt;/p&gt;&lt;p&gt;如果任务执行失败了，可以通过以下命令查看任务日志：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;# tail -f /var/log/cron&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;输出类似如下：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;Sep 30 14:01:01 bogon run-parts(/etc/cron.hourly)[2503]: starting 0anacron
+Sep 30 14:01:01 bogon run-parts(/etc/cron.hourly)[2512]: finished 0anacron
+Sep 30 15:01:01 bogon CROND[3092]: (root) CMD (run-parts /etc/cron.hourly)
+Sep 30 15:01:01 bogon run-parts(/etc/cron.hourly)[3092]: starting 0anacron
+Sep 30 15:01:02 bogon run-parts(/etc/cron.hourly)[3101]: finished 0anacron
+Sep 30 15:50:44 bogon crontab[3598]: (root) BEGIN EDIT (root)
+Sep 30 16:01:01 bogon CROND[3705]: (root) CMD (run-parts /etc/cron.hourly)
+Sep 30 16:01:01 bogon run-parts(/etc/cron.hourly)[3705]: starting 0anacron
+Sep 30 16:01:01 bogon run-parts(/etc/cron.hourly)[3714]: finished 0anacron
+Sep 30 16:15:29 bogon crontab[3598]: (root) END EDIT (root)&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;','Linux,定时,MySQL','1511919788') [ RunTime:0.0253s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002772s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000045s ]
+
+[ 2017-11-29T09:43:09+08:00 ] 114.254.133.166 /admin.php?m=Admin&c=Article&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000054s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /www/wwwroot/tb/ThinkPHP/Library/Think/Db/Driver.class.php 第 504 行.
+SQL: SELECT article.id AS id,article.title AS title,article.pic AS pic,article.commend AS commend,article.choice AS choice,article.time AS time,article.open AS open,article.tid AS tid,category.name AS name,category.type AS type FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id ORDER BY article.id DESC LIMIT 0,15   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 71 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 78 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 71 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 78 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 71 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 78 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 71 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 78 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 71 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 78 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 71 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002273s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000040s ]
+
+[ 2017-11-29T09:43:16+08:00 ] 114.254.133.166 /admin.php?m=Admin&c=banner&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000043s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_banner` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_banner` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+NOTIC: [8] Use of undefined constant apic - assumed 'apic' /www/wwwroot/tb/Runtime/Cache/Admin/eb6373fba24276254f89b6302c1c17d5.php 第 70 行.
+NOTIC: [8] Use of undefined constant bpic - assumed 'bpic' /www/wwwroot/tb/Runtime/Cache/Admin/eb6373fba24276254f89b6302c1c17d5.php 第 96 行.
+NOTIC: [8] Use of undefined constant cpic - assumed 'cpic' /www/wwwroot/tb/Runtime/Cache/Admin/eb6373fba24276254f89b6302c1c17d5.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001792s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001805s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000039s ]
+
+[ 2017-11-29T09:43:18+08:00 ] 114.254.133.166 /admin.php?m=Admin&c=article&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000043s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /www/wwwroot/tb/ThinkPHP/Library/Think/Db/Driver.class.php 第 504 行.
+SQL: SELECT article.id AS id,article.title AS title,article.pic AS pic,article.commend AS commend,article.choice AS choice,article.time AS time,article.open AS open,article.tid AS tid,category.name AS name,category.type AS type FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id ORDER BY article.id DESC LIMIT 0,15   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000055s ]
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 71 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 78 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 71 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 78 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 71 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 78 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 71 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 78 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 71 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 78 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 71 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002307s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002321s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000039s ]
+
+[ 2017-11-29T09:43:19+08:00 ] 114.254.133.166 /admin.php?m=Admin&c=navtop&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000041s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_navtop` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid = 0 ) ORDER BY sort ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid != 0 ) ORDER BY sort ASC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002199s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002213s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000038s ]
+
+[ 2017-11-29T09:43:20+08:00 ] 114.254.133.166 /admin.php?m=Admin&c=category&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000042s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_category` WHERE ( tid = 0 ) ORDER BY id ASC  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tpt_category` WHERE ( tid != 0 ) ORDER BY id ASC  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002346s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002361s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000039s ]
+
+[ 2017-11-29T09:43:21+08:00 ] 114.254.133.166 /admin.php?m=Admin&c=links&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000042s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_links` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where /www/wwwroot/tb/Application/Admin/Controller/LinksController.class.php 第 10 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tpt_links` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: where /www/wwwroot/tb/Application/Admin/Controller/LinksController.class.php 第 13 行.
+SQL: SELECT * FROM `tpt_links` ORDER BY id DESC LIMIT 0,15   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000045s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001560s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001573s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000037s ]
+
+[ 2017-11-29T09:43:22+08:00 ] 114.254.133.166 /admin.php?m=Admin&c=links&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000043s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_links` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where /www/wwwroot/tb/Application/Admin/Controller/LinksController.class.php 第 10 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tpt_links` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: where /www/wwwroot/tb/Application/Admin/Controller/LinksController.class.php 第 13 行.
+SQL: SELECT * FROM `tpt_links` ORDER BY id DESC LIMIT 0,15   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001650s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000039s ]
+
+[ 2017-11-29T09:43:23+08:00 ] 114.254.133.166 /admin.php?m=Admin&c=banner&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000053s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_banner` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpt_banner` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+NOTIC: [8] Use of undefined constant apic - assumed 'apic' /www/wwwroot/tb/Runtime/Cache/Admin/eb6373fba24276254f89b6302c1c17d5.php 第 70 行.
+NOTIC: [8] Use of undefined constant bpic - assumed 'bpic' /www/wwwroot/tb/Runtime/Cache/Admin/eb6373fba24276254f89b6302c1c17d5.php 第 96 行.
+NOTIC: [8] Use of undefined constant cpic - assumed 'cpic' /www/wwwroot/tb/Runtime/Cache/Admin/eb6373fba24276254f89b6302c1c17d5.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001840s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000038s ]
+
+[ 2017-11-29T09:43:24+08:00 ] 114.254.133.166 /admin.php?m=Admin&c=article&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000041s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /www/wwwroot/tb/ThinkPHP/Library/Think/Db/Driver.class.php 第 504 行.
+SQL: SELECT article.id AS id,article.title AS title,article.pic AS pic,article.commend AS commend,article.choice AS choice,article.time AS time,article.open AS open,article.tid AS tid,category.name AS name,category.type AS type FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id ORDER BY article.id DESC LIMIT 0,15   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 71 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 78 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 71 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 78 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 71 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 78 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 71 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 78 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 71 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 78 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 71 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002127s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000037s ]
+
+[ 2017-11-29T09:43:25+08:00 ] 114.254.133.166 /admin.php?m=Admin&c=conf&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000040s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_conf` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Use of undefined constant logo - assumed 'logo' /www/wwwroot/tb/Runtime/Cache/Admin/2a753fa2a4d0e14acdb8b4c8491a00dd.php 第 100 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002352s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002365s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000038s ]
+
+[ 2017-11-29T09:45:24+08:00 ] 114.254.133.166 /admin.php?m=Admin&c=conf&a=webconf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002734s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002754s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000039s ]
+
+[ 2017-11-29T09:45:25+08:00 ] 114.254.133.166 /admin.php?m=Admin&c=Conf&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000043s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_conf` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Use of undefined constant logo - assumed 'logo' /www/wwwroot/tb/Runtime/Cache/Admin/2a753fa2a4d0e14acdb8b4c8491a00dd.php 第 100 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002579s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000039s ]
+
+[ 2017-11-29T09:46:03+08:00 ] 114.254.133.166 /admin.php?m=Admin&c=article&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000042s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /www/wwwroot/tb/ThinkPHP/Library/Think/Db/Driver.class.php 第 504 行.
+SQL: SELECT article.id AS id,article.title AS title,article.pic AS pic,article.commend AS commend,article.choice AS choice,article.time AS time,article.open AS open,article.tid AS tid,category.name AS name,category.type AS type FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id ORDER BY article.id DESC LIMIT 0,15   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 71 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 78 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 71 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 78 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 71 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 78 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 71 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 78 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 71 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 78 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 71 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002233s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000045s ]
+
+[ 2017-11-29T09:46:06+08:00 ] 114.254.133.166 /admin.php?m=Admin&c=article&a=edit&id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_category` WHERE ( type = 1 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpt_article` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/0ea42312e208240db0152206cb8068ef.php 第 75 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/wwwroot/tb/Runtime/Cache/Admin/0ea42312e208240db0152206cb8068ef.php 第 75 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/0ea42312e208240db0152206cb8068ef.php 第 75 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/wwwroot/tb/Runtime/Cache/Admin/0ea42312e208240db0152206cb8068ef.php 第 75 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/0ea42312e208240db0152206cb8068ef.php 第 75 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/wwwroot/tb/Runtime/Cache/Admin/0ea42312e208240db0152206cb8068ef.php 第 75 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/0ea42312e208240db0152206cb8068ef.php 第 75 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/wwwroot/tb/Runtime/Cache/Admin/0ea42312e208240db0152206cb8068ef.php 第 75 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/0ea42312e208240db0152206cb8068ef.php 第 75 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/wwwroot/tb/Runtime/Cache/Admin/0ea42312e208240db0152206cb8068ef.php 第 75 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Admin/0ea42312e208240db0152206cb8068ef.php 第 115 行.
+NOTIC: [8] Use of undefined constant keywords - assumed 'keywords' /www/wwwroot/tb/Runtime/Cache/Admin/0ea42312e208240db0152206cb8068ef.php 第 140 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002757s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002770s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000039s ]
+
+[ 2017-11-29T09:51:29+08:00 ] 114.254.133.166 /admin.php?m=Admin&c=article&a=doedit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /www/wwwroot/tb/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /www/wwwroot/tb/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `tpt_article` SET `title`=' linux下实现mysql数据库定时自动备份',`tid`='7',`author`='微wx笑',`source`='http://blog.csdn.net/testcs_dn/article/details/48829785',`open`='1',`commend`='1',`description`='备份是容灾的基础，是指为防止系统出现操作失误或系统故障导致数据丢失，而将全部或部分数据集合从应用主机的硬盘或阵列复制到其它的存储介质的过程。而对于一些网站、系统来说，数据库就是一切，所以做好数据库的备份是至关重要的！
+
+',`content`='            &lt;h1&gt;概述&lt;/h1&gt;&lt;p&gt;  备份是容灾的基础，是指为防止系统出现操作失误或系统故障导致数据丢失，而将全部或部分数据集合从应用主机的硬盘或阵列复制到其它的存储介质的过程。而对于一些网站、系统来说，数据库就是一切，所以做好数据库的备份是至关重要的！&lt;/p&gt;&lt;h2&gt;&lt;a target=&quot;_blank&quot;&gt;&lt;/a&gt;备份是什么？&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20150930153104216&quot; alt=&quot;这里写图片描述&quot;&gt;&lt;/p&gt;&lt;h2&gt;&lt;a target=&quot;_blank&quot;&gt;&lt;/a&gt;为什么要备份&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20150930153226713&quot; alt=&quot;这里写图片描述&quot;&gt;&lt;/p&gt;&lt;h2&gt;&lt;a target=&quot;_blank&quot;&gt;&lt;/a&gt;容灾方案建设&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;http://img.blog.csdn.net/20150930153209031&quot; alt=&quot;这里写图片描述&quot;&gt;&lt;/p&gt;&lt;h2&gt;&lt;a target=&quot;_blank&quot;&gt;&lt;/a&gt;存储介质&lt;/h2&gt;&lt;p&gt;光盘&amp;nbsp;磁带&amp;nbsp;硬盘&amp;nbsp;磁盘阵列&amp;nbsp;DAS：直接附加存储&amp;nbsp;NAS：网络附加存储&amp;nbsp;SAN：存储区域网络&amp;nbsp;云存储&lt;/p&gt;&lt;p&gt;这里主要以本地磁盘为存储介质讲一下计划任务的添加使用，基本的备份脚本，其它存储介质只是介质的访问方式可能不大一样。&lt;/p&gt;&lt;h1&gt;&lt;a target=&quot;_blank&quot;&gt;&lt;/a&gt;1、查看磁盘空间情况：&lt;/h1&gt;&lt;p&gt;既然是定时备份，就要选择一个空间充足的磁盘空间，避免出现因空间不足导致备份失败，数据丢失的恶果！&amp;nbsp;存储到当前磁盘这是最简单，却是最不推荐的；服务器有多块硬盘，最好是把备份存放到另一块硬盘上；有条件就选择更好更安全的存储介质；&lt;/p&gt;&lt;pre style=&quot;max-width:100%;overflow-x:auto;&quot;&gt;&lt;code class=&quot;javascript hljs&quot; codemark=&quot;1&quot;&gt;# df -h
+Filesystem                    Size  Used Avail Use% Mounted on
+/dev/mapper/VolGroup-lv_root   &lt;span class=&quot;hljs-number&quot;&gt;50&lt;/span&gt;G   &lt;span class=&quot;hljs-number&quot;&gt;46&lt;/span&gt;G  &lt;span class=&quot;hljs-number&quot;&gt;1.6&lt;/span&gt;G  &lt;span class=&quot;hljs-number&quot;&gt;97&lt;/span&gt;% &lt;span class=&quot;hljs-regexp&quot;&gt;/
+tmpfs                         1.9G   92K  1.9G   1% /&lt;/span&gt;dev/shm
+/dev/sda1                     &lt;span class=&quot;hljs-number&quot;&gt;485&lt;/span&gt;M   &lt;span class=&quot;hljs-number&quot;&gt;39&lt;/span&gt;M  &lt;span class=&quot;hljs-number&quot;&gt;421&lt;/span&gt;M   &lt;span class=&quot;hljs-number&quot;&gt;9&lt;/span&gt;% &lt;span class=&quot;hljs-regexp&quot;&gt;/boot
+/&lt;/span&gt;dev/mapper/VolGroup-lv_home  &lt;span class=&quot;hljs-number&quot;&gt;534&lt;/span&gt;G  &lt;span class=&quot;hljs-number&quot;&gt;3.6&lt;/span&gt;G  &lt;span class=&quot;hljs-number&quot;&gt;503&lt;/span&gt;G   &lt;span class=&quot;hljs-number&quot;&gt;1&lt;/span&gt;% &lt;span class=&quot;hljs-regexp&quot;&gt;/home&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;h1&gt;&lt;a target=&quot;_blank&quot;&gt;&lt;/a&gt;2、创建备份目录：&lt;/h1&gt;&lt;p&gt;上面我们使用命令看出/home下空间比较充足，所以可以考虑在/home保存备份文件；&lt;/p&gt;&lt;pre style=&quot;max-width:100%;overflow-x:auto;&quot;&gt;&lt;code class=&quot;javascript hljs&quot; codemark=&quot;1&quot;&gt;cd /home
+mkdir backup
+cd backup&lt;/code&gt;&lt;/pre&gt;&lt;h1&gt;&lt;a target=&quot;_blank&quot;&gt;&lt;/a&gt;3、创建备份Shell脚本:&lt;/h1&gt;&lt;p&gt;注意把以下命令中的DatabaseName换为实际的数据库名称；&amp;nbsp;当然，你也可以使用其实的命名规则！&lt;/p&gt;&lt;pre style=&quot;max-width:100%;overflow-x:auto;&quot;&gt;&lt;code class=&quot;javascript hljs&quot; codemark=&quot;1&quot;&gt;vi bkDatabaseName.sh
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;输入/粘贴以下内容：&lt;/p&gt;&lt;pre style=&quot;max-width:100%;overflow-x:auto;&quot;&gt;&lt;code class=&quot;javascript hljs&quot; codemark=&quot;1&quot;&gt;&lt;span class=&quot;hljs-meta&quot;&gt;#!/bin/bash&lt;/span&gt;
+mysqldump -uusername -ppassword DatabaseName &amp;gt; &lt;span class=&quot;hljs-regexp&quot;&gt;/home/&lt;/span&gt;backup/DatabaseName_$(date +%Y%m%d_%H%M%S).sql
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;对备份进行压缩：&lt;/p&gt;&lt;pre style=&quot;max-width:100%;overflow-x:auto;&quot;&gt;&lt;code class=&quot;javascript hljs&quot; codemark=&quot;1&quot;&gt;&lt;span class=&quot;hljs-meta&quot;&gt;#!/bin/bash&lt;/span&gt;
+mysqldump -uusername -ppassword DatabaseName | gzip &amp;gt; &lt;span class=&quot;hljs-regexp&quot;&gt;/home/&lt;/span&gt;backup/DatabaseName_$(date +%Y%m%d_%H%M%S).sql.gz
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(51, 51, 51); white-space: pre-wrap;&quot;&gt;注意：&amp;nbsp;把 username 替换为实际的用户名；&amp;nbsp;把 password 替换为实际的密码；&amp;nbsp;把 DatabaseName 替换为实际的数据库名；&lt;/span&gt;&lt;/p&gt;&lt;h1&gt;&lt;a target=&quot;_blank&quot;&gt;&lt;/a&gt;4、添加可执行权限：&lt;/h1&gt;&lt;pre style=&quot;max-width:100%;overflow-x:auto;&quot;&gt;&lt;code class=&quot;javascript hljs&quot; codemark=&quot;1&quot;&gt;chmod u+x bkDatabaseName.sh&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;添加可执行权限之后先执行一下，看看脚本有没有错误，能不能正常使用；&lt;/p&gt;&lt;pre style=&quot;max-width:100%;overflow-x:auto;&quot;&gt;&lt;code class=&quot;javascript hljs&quot; codemark=&quot;1&quot;&gt;./bkDatabaseName.sh
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(51, 51, 51); white-space: pre-wrap;&quot;&gt;5、添加计划任务&lt;/span&gt;&lt;/p&gt;&lt;h2&gt;&lt;a target=&quot;_blank&quot;&gt;&lt;/a&gt;检测或安装 crontab&lt;/h2&gt;&lt;p&gt;确认crontab是否安装：&amp;nbsp;执行 crontab 命令如果报 command not found，就表明没有安装&lt;/p&gt;&lt;pre style=&quot;max-width:100%;overflow-x:auto;&quot;&gt;&lt;code class=&quot;javascript hljs&quot; codemark=&quot;1&quot;&gt;# crontab
+-bash: crontab: command not found
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(51, 51, 51); white-space: pre-wrap;&quot;&gt;如时没有安装 crontab，需要先安装它，具体步骤请参考：&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;http://blog.csdn.net/testcs_dn/article/details/48780971&quot; target=&quot;_blank&quot; style=&quot;white-space: pre-wrap;&quot;&gt;CentOS下使用yum命令安装计划任务程序crontab&lt;/a&gt;&lt;span style=&quot;color: rgb(51, 51, 51); white-space: pre-wrap;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;http://blog.csdn.net/testcs_dn/article/details/48781553&quot; target=&quot;_blank&quot; style=&quot;white-space: pre-wrap;&quot;&gt;使用rpm命令从CentOS系统盘安装计划任务程序crontab&lt;/a&gt;&lt;/p&gt;&lt;h2&gt;&lt;a target=&quot;_blank&quot;&gt;&lt;/a&gt;添加计划任务&lt;/h2&gt;&lt;p&gt;执行命令：&lt;/p&gt;&lt;pre style=&quot;max-width:100%;overflow-x:auto;&quot;&gt;&lt;code class=&quot;javascript hljs&quot; codemark=&quot;1&quot;&gt;crontab -e
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(51, 51, 51); white-space: pre-wrap;&quot;&gt;这时就像使用vi编辑器一样，可以对计划任务进行编辑。&amp;nbsp;输入以下内容并保存：&lt;/span&gt;&lt;/p&gt;&lt;pre style=&quot;max-width:100%;overflow-x:auto;&quot;&gt;&lt;code class=&quot;javascript hljs&quot; codemark=&quot;1&quot;&gt;*&lt;span class=&quot;hljs-regexp&quot;&gt;/1 * * * * /&lt;/span&gt;home/backup/bkDatabaseName.sh
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(51, 51, 51); white-space: pre-wrap;&quot;&gt;具体是什么意思呢？&amp;nbsp;意思是每一分钟执行一次shell脚本“/home/backup/bkDatabaseName.sh”。&lt;/span&gt;&lt;/p&gt;&lt;h1&gt;&lt;a target=&quot;_blank&quot;&gt;&lt;/a&gt;6、测试任务是否执行&lt;/h1&gt;&lt;p&gt;很简单，我们就执行几次“ls”命令，看看一分钟过后文件有没有被创建就可以了！&lt;/p&gt;&lt;p&gt;如果任务执行失败了，可以通过以下命令查看任务日志：&lt;/p&gt;&lt;pre style=&quot;max-width:100%;overflow-x:auto;&quot;&gt;&lt;code class=&quot;javascript hljs&quot; codemark=&quot;1&quot;&gt;# tail -f /&lt;span class=&quot;hljs-keyword&quot;&gt;var&lt;/span&gt;/log/cron
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(51, 51, 51); white-space: pre-wrap;&quot;&gt;输出类似如下：&lt;/span&gt;&lt;/p&gt;&lt;pre style=&quot;max-width:100%;overflow-x:auto;&quot;&gt;&lt;code class=&quot;javascript hljs&quot; codemark=&quot;1&quot;&gt;Sep &lt;span class=&quot;hljs-number&quot;&gt;30&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;14&lt;/span&gt;:&lt;span class=&quot;hljs-number&quot;&gt;01&lt;/span&gt;:&lt;span class=&quot;hljs-number&quot;&gt;01&lt;/span&gt; bogon run-parts(&lt;span class=&quot;hljs-regexp&quot;&gt;/etc/&lt;/span&gt;cron.hourly)[&lt;span class=&quot;hljs-number&quot;&gt;2503&lt;/span&gt;]: starting &lt;span class=&quot;hljs-number&quot;&gt;0&lt;/span&gt;anacron
+Sep &lt;span class=&quot;hljs-number&quot;&gt;30&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;14&lt;/span&gt;:&lt;span class=&quot;hljs-number&quot;&gt;01&lt;/span&gt;:&lt;span class=&quot;hljs-number&quot;&gt;01&lt;/span&gt; bogon run-parts(&lt;span class=&quot;hljs-regexp&quot;&gt;/etc/&lt;/span&gt;cron.hourly)[&lt;span class=&quot;hljs-number&quot;&gt;2512&lt;/span&gt;]: finished &lt;span class=&quot;hljs-number&quot;&gt;0&lt;/span&gt;anacron
+Sep &lt;span class=&quot;hljs-number&quot;&gt;30&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;15&lt;/span&gt;:&lt;span class=&quot;hljs-number&quot;&gt;01&lt;/span&gt;:&lt;span class=&quot;hljs-number&quot;&gt;01&lt;/span&gt; bogon CROND[&lt;span class=&quot;hljs-number&quot;&gt;3092&lt;/span&gt;]: (root) CMD (run-parts /etc/cron.hourly)
+Sep &lt;span class=&quot;hljs-number&quot;&gt;30&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;15&lt;/span&gt;:&lt;span class=&quot;hljs-number&quot;&gt;01&lt;/span&gt;:&lt;span class=&quot;hljs-number&quot;&gt;01&lt;/span&gt; bogon run-parts(&lt;span class=&quot;hljs-regexp&quot;&gt;/etc/&lt;/span&gt;cron.hourly)[&lt;span class=&quot;hljs-number&quot;&gt;3092&lt;/span&gt;]: starting &lt;span class=&quot;hljs-number&quot;&gt;0&lt;/span&gt;anacron
+Sep &lt;span class=&quot;hljs-number&quot;&gt;30&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;15&lt;/span&gt;:&lt;span class=&quot;hljs-number&quot;&gt;01&lt;/span&gt;:&lt;span class=&quot;hljs-number&quot;&gt;02&lt;/span&gt; bogon run-parts(&lt;span class=&quot;hljs-regexp&quot;&gt;/etc/&lt;/span&gt;cron.hourly)[&lt;span class=&quot;hljs-number&quot;&gt;3101&lt;/span&gt;]: finished &lt;span class=&quot;hljs-number&quot;&gt;0&lt;/span&gt;anacron
+Sep &lt;span class=&quot;hljs-number&quot;&gt;30&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;15&lt;/span&gt;:&lt;span class=&quot;hljs-number&quot;&gt;50&lt;/span&gt;:&lt;span class=&quot;hljs-number&quot;&gt;44&lt;/span&gt; bogon crontab[&lt;span class=&quot;hljs-number&quot;&gt;3598&lt;/span&gt;]: (root) BEGIN EDIT (root)
+Sep &lt;span class=&quot;hljs-number&quot;&gt;30&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;16&lt;/span&gt;:&lt;span class=&quot;hljs-number&quot;&gt;01&lt;/span&gt;:&lt;span class=&quot;hljs-number&quot;&gt;01&lt;/span&gt; bogon CROND[&lt;span class=&quot;hljs-number&quot;&gt;3705&lt;/span&gt;]: (root) CMD (run-parts /etc/cron.hourly)
+Sep &lt;span class=&quot;hljs-number&quot;&gt;30&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;16&lt;/span&gt;:&lt;span class=&quot;hljs-number&quot;&gt;01&lt;/span&gt;:&lt;span class=&quot;hljs-number&quot;&gt;01&lt;/span&gt; bogon run-parts(&lt;span class=&quot;hljs-regexp&quot;&gt;/etc/&lt;/span&gt;cron.hourly)[&lt;span class=&quot;hljs-number&quot;&gt;3705&lt;/span&gt;]: starting &lt;span class=&quot;hljs-number&quot;&gt;0&lt;/span&gt;anacron
+Sep &lt;span class=&quot;hljs-number&quot;&gt;30&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;16&lt;/span&gt;:&lt;span class=&quot;hljs-number&quot;&gt;01&lt;/span&gt;:&lt;span class=&quot;hljs-number&quot;&gt;01&lt;/span&gt; bogon run-parts(&lt;span class=&quot;hljs-regexp&quot;&gt;/etc/&lt;/span&gt;cron.hourly)[&lt;span class=&quot;hljs-number&quot;&gt;3714&lt;/span&gt;]: finished &lt;span class=&quot;hljs-number&quot;&gt;0&lt;/span&gt;anacron
+Sep &lt;span class=&quot;hljs-number&quot;&gt;30&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;16&lt;/span&gt;:&lt;span class=&quot;hljs-number&quot;&gt;15&lt;/span&gt;:&lt;span class=&quot;hljs-number&quot;&gt;29&lt;/span&gt; bogon crontab[&lt;span class=&quot;hljs-number&quot;&gt;3598&lt;/span&gt;]: (root) END EDIT (root)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;',`keywords`='Linux,定时,MySQL',`choice`='0' WHERE `id` = 9 [ RunTime:0.0059s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002665s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002681s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000042s ]
+
+[ 2017-11-29T09:51:30+08:00 ] 114.254.133.166 /admin.php?m=Admin&c=Article&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000054s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /www/wwwroot/tb/ThinkPHP/Library/Think/Db/Driver.class.php 第 504 行.
+SQL: SELECT article.id AS id,article.title AS title,article.pic AS pic,article.commend AS commend,article.choice AS choice,article.time AS time,article.open AS open,article.tid AS tid,category.name AS name,category.type AS type FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id ORDER BY article.id DESC LIMIT 0,15   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 71 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 78 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 71 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 78 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 71 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 78 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 71 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 78 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 71 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 78 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 71 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002187s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000048s ]
+
+[ 2017-11-29T10:14:22+08:00 ] 114.254.133.166 /admin.php?m=Admin&c=category&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000043s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_category` WHERE ( tid = 0 ) ORDER BY id ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tpt_category` WHERE ( tid != 0 ) ORDER BY id ASC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002286s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000038s ]
+
+[ 2017-11-29T10:14:23+08:00 ] 114.254.133.166 /admin.php?m=Admin&c=article&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /www/wwwroot/tb/ThinkPHP/Library/Think/Db/Driver.class.php 第 504 行.
+SQL: SELECT article.id AS id,article.title AS title,article.pic AS pic,article.commend AS commend,article.choice AS choice,article.time AS time,article.open AS open,article.tid AS tid,category.name AS name,category.type AS type FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id ORDER BY article.id DESC LIMIT 0,15   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 71 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 78 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 71 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 78 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 71 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 78 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 71 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 78 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 71 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 78 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 71 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002295s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002309s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000043s ]
+
+[ 2017-11-29T10:14:25+08:00 ] 114.254.133.166 /admin.php?m=Admin&c=category&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_category` WHERE ( tid = 0 ) ORDER BY id ASC  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tpt_category` WHERE ( tid != 0 ) ORDER BY id ASC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002226s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002240s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000038s ]
+
+[ 2017-11-29T10:14:26+08:00 ] 114.254.133.166 /admin.php?m=Admin&c=navtop&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000042s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_navtop` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid = 0 ) ORDER BY sort ASC  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tpt_navtop` WHERE ( tid != 0 ) ORDER BY sort ASC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000046s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002095s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002109s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000036s ]
+
+[ 2017-11-29T10:14:31+08:00 ] 114.254.133.166 /admin.php?m=Admin&c=article&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000043s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_article` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /www/wwwroot/tb/ThinkPHP/Library/Think/Db/Driver.class.php 第 504 行.
+SQL: SELECT article.id AS id,article.title AS title,article.pic AS pic,article.commend AS commend,article.choice AS choice,article.time AS time,article.open AS open,article.tid AS tid,category.name AS name,category.type AS type FROM tpt_article article LEFT JOIN tpt_category category ON article.tid=category.id ORDER BY article.id DESC LIMIT 0,15   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 71 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 78 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 71 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 78 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 71 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 78 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 71 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 78 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 71 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 78 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 71 行.
+NOTIC: [8] Use of undefined constant commend - assumed 'commend' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 75 行.
+NOTIC: [8] Use of undefined constant choice - assumed 'choice' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 76 行.
+NOTIC: [8] Use of undefined constant tid - assumed 'tid' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 77 行.
+NOTIC: [8] Use of undefined constant open - assumed 'open' /www/wwwroot/tb/Runtime/Cache/Admin/fe3b60fe672510c0886011ecdc14bba9.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002287s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002300s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000039s ]
+
+[ 2017-11-29T10:14:32+08:00 ] 114.254.133.166 /admin.php?m=Admin&c=category&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000042s ]
+SQL: SHOW COLUMNS FROM `tpt_member` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tpt_member` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tpt_category` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tpt_category` WHERE ( tid = 0 ) ORDER BY id ASC  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tpt_category` WHERE ( tid != 0 ) ORDER BY id ASC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000037s ]
+

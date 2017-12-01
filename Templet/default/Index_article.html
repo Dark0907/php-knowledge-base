@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="zh-cn">
 <head>
 <title>{$tpte.author} - {$tptl.title}</title>
@@ -30,7 +30,7 @@
 			<div class="toubu">
 				<h2>{$tptl.title}</h2>
 				<div class="toubu_span cl">
-					<span style="color:#333;">{$tptl.author}</span><span class="pipe">|</span>
+					<span style="color:#333;"><a href ="{$tptl.source}" target="_blank">{$tptl.author}</a></span><span class="pipe">|</span>
 					<span>阅读：{$tptl.view}</span><span class="pipe"></span>
 					<span>发表时间：{$tptl.time|date="Y-m-d H:i:s",###}</span>
 					<span class="y"><if condition="C('WEB_URL') eq 1"><a href="__ROOT__/index/{$tpti.id}.html"><else/>
